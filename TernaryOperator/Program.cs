@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*sa se citeasca 2 numere si sa se afiseze cel mai mare numar dintre ele
+*/
+using System;
 
 namespace TernaryOperator
 {
