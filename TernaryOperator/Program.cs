@@ -7,15 +7,16 @@ namespace TernaryOperator
         static void Main(string[] args)
         {
             string inputData = Console.ReadLine();
-            int a = Convert.ToInt32(inputData);
+            double a = (double) Convert.ToDouble (inputData);
 
             inputData = Console.ReadLine();
-            int b = Convert.ToInt32(inputData);
+            double b = (double) Convert.ToDouble (inputData);
 
-            int max = a < b ? b : a;
+            double max = a < b ? b : a;
 
             Console.WriteLine(max);
             Console.Read();
+
         }
     }
 }
